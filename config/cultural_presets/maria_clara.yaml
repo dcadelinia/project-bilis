@@ -1,0 +1,20 @@
+preset_name: "maria_clara_suite"
+version: "1.0.0"
+
+biomechanical_overrides:
+  required_keypoints:
+    - left_shoulder
+    - right_shoulder
+    - left_wrist
+    - right_wrist
+    - spine_naval_center
+  prop_tracking:
+    enabled: true
+    monitored_objects: ["fan_edge", "handkerchief_vertex"]
+    min_tracking_confidence: 0.80
+
+athletic_applications:
+  posture_symmetry:
+    max_allowable_tilt_degrees: 15.0 # Trains core control and upright stability
+  prop_fluidity:
+    target_frequency_hz: 2.5        # Replicates rapid hand-eye tracking adjustments
