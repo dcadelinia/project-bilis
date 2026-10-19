@@ -1,21 +1,16 @@
-MIT License
+# Intellectual Property Notice & Proprietary License
 
-Copyright (c) 2026 dcadelinia
+Copyright (c) 2026 The Tinikling Method Project. All Rights Reserved.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 1. Trade Secret Notice
+The underlying source code, algorithmic logic pipelines, multi-sport configuration metrics, and scoring weights contained within this repository constitute proprietary trade secrets. This information derives actual and potential independent economic value from not being generally known to public commercial markets.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+This project claims full statutory trade secret protection under:
+* The Texas Uniform Trade Secrets Act (TUTSA) (Tex. Civ. Prac. & Rem. Code Ch. 134A)
+* The United States Defend Trade Secrets Act (DTSA) (18 U.S.C. § 1836)
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## 2. International Provisions & WTO Compliance
+Pursuant to Article 39 of the World Trade Organization (WTO) TRIPS Agreement (Trade-Related Aspects of Intellectual Property Rights), the undisclosed technical data, multi-sport metrics, source scripts, and tracking configurations herein are protected against unauthorized commercial use, disclosure, or misappropriation across all WTO member sovereign states.
+
+## 3. Permitted Usage Restrictions
+Permission is granted strictly for non-commercial educational review, local academic athletic experimentation, and open-source contribution under the terms of the project's parameters. Any unauthorized commercial exploitation, modification of analytics pipelines for third-party software platforms, or deployment of these specific tracking metrics in corporate athletic apps without an explicit commercial license from the copyright holders is strictly prohibited and subject to legal remedies, including statutory damages and injunctive relief.
