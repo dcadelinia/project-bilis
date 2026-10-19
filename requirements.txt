@@ -1,0 +1,6 @@
+numpy>=1.22.0
+pyyaml>=6.0
+pytest>=7.0.0
+# future-nvidia-requirements (uncomment when initializing TensorRT environment)
+# tensorrt
+# pycuda
