@@ -1,9 +1,9 @@
-# Computer Vision Configuration for Anchor Tracking
+# Computer Vision Configuration for Multi-Sport Anchor Tracking
 project_name: "the-tinikling-method"
-version: "1.0.0"
+version: "1.2.0"
 
 hardware_target:
-  platform: "NVIDIA_Jetson_Orin" # Target for edge processing
+  platform: "NVIDIA_Jetson_Orin" 
   optimization: "TensorRT_FP16"
 
 tracking_parameters:
@@ -13,10 +13,31 @@ tracking_parameters:
     - right_ankle
     - left_knee
     - right_knee
-  pole_boundary_detection:
+    - left_wrist
+    - right_wrist
+    - hip_crest_left
+    - hip_crest_right
+  boundary_detection:
     color_mask: "yellow_black_strikes"
     min_confidence: 0.85
 
 coordination_metrics:
   max_allowed_gct_ms: 180.0       # Threshold for elite quick-twitch performance
   sync_tolerance_frames: 3        # Frame alignment threshold for multi-athlete drills
+
+sport_environments:
+  swimming:
+    medium: "aqueous_submerged"
+    primary_tracking_points: ["wrist_joint", "ankle_joint", "hip_vertex"]
+    cadence_ratio: "1_to_3_stroke_kick_syncopation"
+    target_fps: 120 
+    
+  tennis:
+    medium: "hard_court_clay"
+    primary_tracking_points: ["left_ankle", "right_ankle", "racket_handle_tip"]
+    movement_planes: ["lateral_slide", "diagonal_recovery"]
+    
+  baseball:
+    medium: "dirt_turf"
+    primary_tracking_points: ["hip_crest_left", "hip_crest_right", "lead_wrist"]
+    kinetic_focus: "rotational_uncoiling_latency"
