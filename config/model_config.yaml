@@ -1,0 +1,22 @@
+# Computer Vision Configuration for Anchor Tracking
+project_name: "the-tinikling-method"
+version: "1.0.0"
+
+hardware_target:
+  platform: "NVIDIA_Jetson_Orin" # Target for edge processing
+  optimization: "TensorRT_FP16"
+
+tracking_parameters:
+  video_input_fps: 60
+  target_keypoints:
+    - left_ankle
+    - right_ankle
+    - left_knee
+    - right_knee
+  pole_boundary_detection:
+    color_mask: "yellow_black_strikes"
+    min_confidence: 0.85
+
+coordination_metrics:
+  max_allowed_gct_ms: 180.0       # Threshold for elite quick-twitch performance
+  sync_tolerance_frames: 3        # Frame alignment threshold for multi-athlete drills
